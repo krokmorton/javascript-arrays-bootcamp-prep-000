@@ -14,12 +14,11 @@ function addElementToEndOfArray(chocolateBars, element){
   return [...chocolateBars, element]
 }
 
-function destructivelyAddElementToEndOfArray(){
+function destructivelyAddElementToEndOfArray(chocolateBars, element){
   chocolateBars.push(element);
   return chocolateBars
 }
 
 function accessElementInArray(chocolateBars, index){
-  return chocolateBars, index
-  
+  return chocolateBars[index]
 }
